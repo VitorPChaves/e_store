@@ -1,0 +1,18 @@
+/* FOOTER */
+.Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    max-height: 50px;
+
+    padding: 5px 0px 3px 0px;
+    text-underline-position:auto;
+}
+
+.Container a, p {
+    color: white;
+    margin-right: 1rem;
+    font-size: 15px;
+}
