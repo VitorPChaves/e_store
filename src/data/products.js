@@ -13,6 +13,7 @@ const products = [
       "/images/boots/nike/futsal/mercurial/vapor/branca5.png",
     ],
     price: 329.99,
+    sizes: [],
     countInStock: 10,
     rating: 4,
     reviews: 10,
