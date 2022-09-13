@@ -1,49 +1,30 @@
 /* BANNER */
+
+.banner h2 {
+    font-family: "Futura";
+    color: white;
+    z-index: 999;
+    font-size: 45px;
+    margin-bottom: -20px;
+    margin-top: 0px;
+}
+
 .banner {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.226), rgba(0, 0, 0, 0.226)),
-        url('../../assets/tonikroos.webp')
+        url('../../assets/tonikroos2.png')
         no-repeat scroll bottom / cover;
-    padding: 110px 0 110px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding: 240px 0 240px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+    /* margin-inline: 20px; */
 
     text-align: center;
 }
 
-.banner-head h2 {
-    /* font-family: "Futura", serif; */
-    font-family: "HelveticaNeue" ,sans-serif;
-    /* font-family: "Georgia" , serif; */
-    color: #fff;
-    font-size: 40px;
-    letter-spacing: 3px;
-    line-height: 30px;
-    margin: 20px;
+@media (max-width: 900px) {
 }
 
-.subscribe-head p {
-    color: #fff;
-    font-size: 18px;
-    line-height: 22px;
-    margin: 0 0 39px;
-}
-
-.subscribe-head {
-    text-align: center;
-}
-
-@media (max-width: 400px) {
-
-    .banner {
-        max-height: 200px;
-    }
-    .banner-head h2 {
-        font-size: 10px;
-    }
-}
 
 @media (max-width: 575.98px) {
-    .banner-section {
-      padding: 70px 0 70px;
-    }
 }
