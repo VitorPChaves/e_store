@@ -1,0 +1,58 @@
+.information {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.information h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.information h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.information p {
+    color: black;
+}
+
+.about-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.declarations {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+.declarations p {
+    text-align: center;
+}
+
+.mission {
+    width: 300px;
+    padding-inline: 20px;
+}
+
+.vision {
+    width: 300px;
+    padding-inline: 20px;
+}
+
+.values {
+    width: 300px;
+    padding-inline: 20px;
+}

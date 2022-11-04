@@ -1,0 +1,32 @@
+.privacy-policy {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    padding-left: 20px;
+    margin-bottom: 40px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+    /* border: 2px solid red; */
+}
+
+.privacy-policy h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    /* border: 2px solid red; */
+}
+
+.privacy-policy h2 {
+    margin-block: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    /* border: 2px solid red; */
+}
+
+.privacy-policy p {
+    color: black;
+    margin-bottom: 40px;
+    /* border: 2px solid red; */
+}
