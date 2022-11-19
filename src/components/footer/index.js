@@ -5,6 +5,8 @@ import './styles.css'
 import safebrowsing from '../../assets/safe_browsing.png'
 import safebuy from '../../assets/protected_website.webp'
 
+//a porta do mundo em D
+
 const Footer = () => {
   return (
     <div>

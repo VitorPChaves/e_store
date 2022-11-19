@@ -1,0 +1,40 @@
+*CHUTEIRAS*
+
+	- Nomes ( FUTBOOT / BRASIL CHUTEIRAS / CHUTEIRAS DELIVERY /
+		NAÇAO CHUTEIRAS / PAÍS DAS CHUTEIRAS / SC Chuteiras / Live Chuteiras
+		FUTEBOLEIRO / CHUTEIRASBOL / bZ CHUTEIRAS / 100 CHUTEIRAS / MIL CHUTEIRAS
+		SPORT VILA / )
+
+	*Patentes
+		- Nome da empresa
+		- Nome da marca
+		- CNPJ
+		- All rights reserved / copyright
+
+
+	- "A loja de chuteiras mais moderna do Brasil check"
+
+	- Link to Instagram
+	- Announcement swiper
+	- LGPD
+	- TESTES
+	- lazy load
+	- Max-width para zoom out
+	- Products grid products quantity
+
+	- "I can help you by also by reviewing the products and publishing pictures of the products"
+	- Um de nossos atendentes irá responder a sua solicitação em poucos instantes"
+	- "Um de nossos atendentes irá te atender em instantes"
+
+	"Seja voce um de nossos primeiros clientes e receba 50$ off"
+	"Novos modelos toda semana
+
+	SINGLE PRODUCT?
+	"Não encontrou a chuteira que está buscando? Entre em contato e deixe que nossos atendentes 
+	encontram"
+
+	LAZY LOADING components
+	- A partir do momento que passar pela div "sentinela" carrega o restante
+	- Adicionar uma div sentinela entre cada produto no carrossel
+
+

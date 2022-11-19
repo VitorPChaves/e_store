@@ -1,12 +1,40 @@
 /* BANNER */
+.banner-outdoor {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.226), rgba(0, 0, 0, 0.226)),
+        url('../../assets/cr7.png')
+        no-repeat scroll bottom left / cover;
+    /* padding: 140px 0 140px; */
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 40px;
 
-.banner h2 {
+    /* margin-inline: 20px; */
+
+    /* text-align: start; */
+    padding-left: 20px;
+    padding-top: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    /* border: 2px solid red; */
+}
+
+.banner-outdoor h2 {
     font-family: "Futura";
     color: white;
     z-index: 999;
-    font-size: 45px;
-    margin-bottom: -20px;
+    font-size: 36px;
+    /* margin-bottom: -20px; */
     margin-top: 0px;
+
+
+
+    /* text-align: start; */
+
+    /* border: 2px solid red; */
 }
 
 .banner {
@@ -16,7 +44,7 @@
     padding: 240px 0 240px;
     margin-top: 10px;
     margin-bottom: 40px;
-
+    filter: grayscale(100%);
     /* margin-inline: 20px; */
 
     text-align: center;

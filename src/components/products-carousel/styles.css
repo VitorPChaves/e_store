@@ -1,0 +1,155 @@
+/* Title */
+.title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
+}
+
+.title h6 {
+    font-family: "Futura";
+    z-index: 999;
+    font-size: 50px;
+    margin-bottom: -20px;
+    margin-top: 0px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+/* Carousel */
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out 0s;
+
+}
+
+.carousel-container {
+    margin-block: 20px;
+}
+
+.carousel-container:hover h6 {
+    transform: scale(1.1, 1.1);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.carousel-container:hover .carousel { 
+    box-shadow:
+        0 1.4px 1.1px rgba(0, 0, 0, 0.034),
+        0 6.2px 5px rgba(0, 0, 0, 0.06),
+        0 20.9px 31.7px rgba(0, 0, 0, 0.086);
+        
+    transform: scale(1.01, 1.01);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.container .carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.item {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    flex: none;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.item:hover {
+    transform: scale(1.05, 1.05);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.image {
+    width: 100%;
+    background: no-repeat scroll bottom left / cover;
+
+    /* object-fit: center / cover; */
+    margin-bottom: 5px;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Product Info */
+.item-info {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.item-info h1 {
+    font-size: 14px;
+}
+
+.item-info h2 {
+    margin-block: 5px;
+    font-size: 11px;
+    color: gray;
+}
+
+.item-info h3 {
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Buttons */
+.buttons {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.buttons button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    visibility: hidden;
+    width: 104px;
+    height: 104px;
+    justify-content: end;
+    margin: -20px;
+    margin-top: -60px;
+    z-index: 999;
+}
+
+.buttons button:first-child {
+    transform: rotate(180deg);
+}
+
+.carousel-container:hover button {
+    margin-inline: 10px;
+    transform: rotate(360deg), translate(0px, 100px);
+    visibility: visible;
+    transition: all 0.3s ease-in-out 0s;
+
+}
+
+.carousel-container:hover button:first-child {
+    transform: rotate(180deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+@media (max-width: 575.98px) {
+    .title h6 {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 400px) {
+    .title h6 {
+        font-size: 30px;
+    }
+}
+

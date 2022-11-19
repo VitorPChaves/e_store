@@ -1,0 +1,62 @@
+.boot-type {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-block: 20px;
+}
+
+
+.boot-type button {
+    background-color: white;
+    border: none;
+    transition: all 0.3s ease-in-out 0s;   
+}
+
+.boot-type button img {
+    max-width: 170px;
+    border-radius: 20px;
+}
+
+.boot-type button h3 {
+    /* font-family: "Futura"; */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    font-size: 16px;
+    color: var(--bs-body-color);
+    text-transform: lowercase;
+}
+
+.boot-type button:hover {
+    transform: scale(1.1,1.1);
+    transition: all 0.3s ease-in-out 0s;   
+}
+
+@media (max-width: 900px) {
+}
+
+@media (max-width: 725.5px) {
+
+    .boot-type {
+        margin-block: 20px;
+    }
+
+    .boot-type button h3 {
+        font-size: 14px;
+    }
+
+    .boot-type button img {
+        max-width: 120px;
+    }
+}
+
+@media (max-width: 400px) {
+    .boot-type button img {
+        max-width: 80px;
+    }
+    
+    .boot-type button h3 {
+        font-size: 12px;
+    }
+}

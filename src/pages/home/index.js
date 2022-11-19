@@ -1,32 +1,33 @@
 import React from "react"
 
 import Header from "../../components/header"
-import BootType from "../../components/type"
+import BootSoleplate from "../../components/product-soleplate"
 import Banner from "../../components/banner"
-import NewReleases from "../../components/carousel/new-releases"
-import BestSellers from "../../components/carousel/best-sellers"
-import Adidas from "../../components/carousel/adidas"
-import Nike from "../../components/carousel/nike"
-import Puma from "../../components/carousel/puma"
+import ProductsCarousel from "../../components/products-carousel"
 import BannerBottom from "../../components/banner-bottom"
 import Footer from "../../components/footer"
 
-const HomeScreen = () => {
-  window.scrollTo(0, 0)
+//import products from "../../data/products"
+import data from "../../data/productsjson.json"
+
+const HomePage = () => {
+  //window.scrollTo(0, 0)
+  const products = data.products
+
   return (
     <div>
       <Header/>
-      <BootType/>
-      <NewReleases/>
-      <BestSellers/>
+      <BootSoleplate/>
+      <ProductsCarousel data={products} title={'LANÇAMENTOS'}/>
+      <ProductsCarousel data={products.filter((item) => {return item.price === 399.99})} title={'MAIS VENDIDAS'}/>
       <Banner/>
-      <Nike/>
-      <Adidas/>
-      <Puma/>
+      <ProductsCarousel data={products.filter((item) => {return item.brand === "NIKE"})} title={'NIKE'}/>
+      <ProductsCarousel data={products.filter((item) => {return item.brand === "ADIDAS"})} title={'ADIDAS'}/>
+      <ProductsCarousel data={products.filter((item) => {return item.brand === "PUMA"})} title={'PUMA'}/>
       <BannerBottom/>
       <Footer/>
     </div>
   )
 }
 
-export default HomeScreen
+export default HomePage
