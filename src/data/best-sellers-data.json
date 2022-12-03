@@ -1,0 +1,32 @@
+{
+    "best-sellers": [
+        {
+            "id": "287",
+            "name": "Ultra Ultimate",
+            "brand": "PUMA",
+            "soleplate": "FUTSAL",
+            "images": [
+                "/images/boots/puma/futsal/ultra/ultimate/red_1.png",
+                "/images/boots/puma/futsal/ultra/ultimate/red_2.png",
+                "/images/boots/puma/futsal/ultra/ultimate/red_3.png",
+                "/images/boots/puma/futsal/ultra/ultimate/red_4.png",
+                "/images/boots/puma/futsal/ultra/ultimate/red_5.png"
+            ],
+            "price": 399.99
+        },
+        {
+            "id": "286",
+            "name": "Ultra Ultimate",
+            "brand": "PUMA",
+            "soleplate": "FUTSAL",
+            "images": [
+                "/images/boots/puma/futsal/ultra/ultimate/green_1.png",
+                "/images/boots/puma/futsal/ultra/ultimate/green_2.png",
+                "/images/boots/puma/futsal/ultra/ultimate/green_3.png",
+                "/images/boots/puma/futsal/ultra/ultimate/green_4.png",
+                "/images/boots/puma/futsal/ultra/ultimate/green_5.png"
+            ],
+            "price": 399.99
+        }
+    ]
+}

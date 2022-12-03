@@ -17,8 +17,8 @@ const Header = () => {
       <div className="announcement">
         <div className="bandeira">
           <img  alt="brasil" src={bandeira} />
-          <small>Brasil rumo à</small>
-          <small className="gold">Copa</small>
+          <small>Brasil rumo ao</small>
+          <small className="gold">Hexa</small>
         </div>
         <div className="contact">
           <Link to="">
