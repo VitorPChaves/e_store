@@ -12,6 +12,8 @@ import data from "../../data/productsjson.json"
 import best_sellers_data from "../../data/best-sellers-data.json"
 import new_releases_data from "../../data/new-releases-data.json"
 import nike_data from "../../data/nike-data.json"
+import adidas_data from "../../data/adidas-data.json"
+import puma_data from "../../data/puma-data.json"
 
 const HomePage = () => {
   //window.scrollTo(0, 0)
@@ -19,6 +21,8 @@ const HomePage = () => {
   const best_sellers = best_sellers_data["best-sellers"]
   const new_releases = new_releases_data["new-releases"]
   const nike = nike_data["nike"]
+  const adidas = adidas_data["adidas"]
+  const puma = puma_data["puma"]
 
   return (
     <div>
@@ -29,8 +33,10 @@ const HomePage = () => {
       <ProductsCarousel data={best_sellers} title={'MAIS VENDIDAS'}/>
       <Banner/>
       <ProductsCarousel data={nike} title={'NIKE'}/>
-      <ProductsCarousel data={products.filter((item) => {return item.brand === "ADIDAS"})} title={'ADIDAS'}/>
-      <ProductsCarousel data={products.filter((item) => {return item.brand === "PUMA"})} title={'PUMA'}/>
+      {/* <ProductsCarousel data={products.filter((item) => {return item.brand === "ADIDAS"})} title={'ADIDAS'}/> */}
+      <ProductsCarousel data={adidas} title={'ADIDAS'}/>
+      {/* <ProductsCarousel data={products.filter((item) => {return item.brand === "PUMA"})} title={'PUMA'}/> */}
+      <ProductsCarousel data={puma} title={'PUMA'}/>
       <BannerBottom/>
       <Footer/>
     </div>
